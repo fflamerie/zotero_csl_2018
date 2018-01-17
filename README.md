@@ -1,11 +1,11 @@
 # Créer des styles bibliographiques en CSL
 Matériel de la formation ["Créer des styles bibliographiques personnalisés pour Zotero et Mendeley : utilisateurs avancés"](https://sygefor.reseau-urfist.fr/#!/training/7235/7907/) organisée par l'Urfist Bordeaux à l'Université de Poitiers le 2018-03-06, 9h-16h.
 Le matériel est composé des éléments suivants.
-* Document de cours - lien à venir
-* Programme (diaporama) - lien à venir
-* Jeu des 7 erreurs CSL (diaporama) - lien à venir
+* [Document de cours](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx.md)
+* [Programme (diaporama)](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_programme.md)
+* [Jeu des 7 erreurs CSL (diaporama)](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_csl_jeu_erreurs.md)
 * Exercices de style (diaporama) - lien à venir
-* Consignes d'un style imaginaire, le style Garni - lien à venir
+* [Consignes d'un style imaginaire, le style Garni](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_consignes_garni.md)
 * Bibliothèque : kit CSL, ressources et exemples - lien à venir
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br />Les supports sont mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 3.0 France</a>.
