@@ -13,7 +13,7 @@ Le plus difficile n'est pas forcément d'encoder le style, mais de disposer de c
 
 _Un exemple à suivre : la page de documentation du style Infoclio. Cette page précise en outre de façon détaillée les champs Zotero utilisés pour chaque type de document._
 
-Style de citation infoclio.ch - Instructions pour Zotero. (n.d.). _infoclio.ch_. Repéré à [https://www.infoclio.ch/fr/node/139551]
+Style de citation infoclio.ch - Instructions pour Zotero. (n.d.). _infoclio.ch_. Repéré à <https://www.infoclio.ch/fr/node/139551>
 
 ## Rappel 4 : les types de style
 Un style bibliographique définit la façon dont les éléments bibliographiques d’un document :
@@ -168,7 +168,7 @@ Contrairement à HTML, XML ne pardonne aucune erreur de syntaxe. Toute erreur (o
 *   **valide**, _i. e._ qu'il est conforme aux règles du schéma CSL, qui décrit tous les éléments CSL, leurs attributs et leurs règles d'utilisation.
 
 Adapté de :
-Zelle, R. M. (n.d.). Primer - An Introduction to CSL : Understanding CSL Styles : XML Basics. _Citation Style Language 1.0.1-dev documentation_. Repéré à [http://docs.citationstyles.org/en/stable/primer.html#xml-basics]
+Zelle, R. M. (n.d.). Primer - An Introduction to CSL : Understanding CSL Styles : XML Basics. _Citation Style Language 1.0.1-dev documentation_. Repéré à <http://docs.citationstyles.org/en/stable/primer.html#xml-basics>
 
 
 # Principes du langage CSL : le jeu des 7 erreurs
@@ -200,7 +200,7 @@ L'utilisation des macro fait partie des bonnes pratiques recommandées par Sebas
 
 >Bonne pratique 2 : Utilisez abondamment les macros. Gardez les éléments `citation` et `bibliography` brefs et ne leur intégrez qu'au minimum des éléments `choose`.
 
-Source : adamsmith. (2013, 28 octobre). Writing CSL - Features and Best Practices. _The Zoteroist_. Repéré à [https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/](https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/)
+Source : adamsmith. (2013, 28 octobre). Writing CSL - Features and Best Practices. _The Zoteroist_. Repéré à <https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/](https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/>
 
 Retenons également la bonne pratique 3 recommandées dans ce billet par adamsmith, nous reviendrons sur la bonne pratique 1 un peu plus tard.
 
@@ -262,7 +262,7 @@ D'autres élements, `group` et `choose`, par exemple, sont davantage des éléme
 
 C'est le moment de revenir sur les bonnes pratiques d'écriture recommandées par adamsmith, avec la bonne pratique 1.
 
-Source :adamsmith. (2013, 28 octobre). Writing CSL - Features and Best Practices. _The Zoteroist_. Repéré à [https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/](https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/)
+Source :adamsmith. (2013, 28 octobre). Writing CSL - Features and Best Practices. _The Zoteroist_. Repéré à <https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/](https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/>
 
 >Bonne pratique 1 : Préférez les `group` et les `group delimiters` aux affixes pour la ponctuation et les espaces entre les objets.
 
