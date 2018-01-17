@@ -1,18 +1,3 @@
-<!--ligne 394-->
-- [x] créer entrepôt GitHub
-- [ ] reprendre les commentaires
-- [x] check liens hypertexte + mise en forme liens spécif CSL
-- [x] bibliographie
-- [ ] fichier zotero-csl.rdf
-- [x] exercice macro auteur
-- [x] exercice macro conditionnelle
-- [x] exercice élément citation
-- [x] 5. éditeur de style : intégrer images mquantes
-- [x]  subsitut nom d'auteur
-- [x] créer fichier exercice avec corrigé
-- [ ] demander meilleur pratique locale
-
-
 # Créer des styles bibliographiques personnalisés CSL
 
 # 1. Introduction
