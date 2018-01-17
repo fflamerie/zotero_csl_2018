@@ -2,8 +2,8 @@
 Matériel de la formation ["Créer des styles bibliographiques personnalisés pour Zotero et Mendeley : utilisateurs avancés"](https://sygefor.reseau-urfist.fr/#!/training/7235/7907/) organisée par l'Urfist Bordeaux à l'Université de Poitiers le 2018-03-06, 9h-16h.
 Le matériel est composé des éléments suivants.
 * [Document de cours](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx.md)
-* [Programme (diaporama)](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_programme.md)
-* [Jeu des 7 erreurs CSL (diaporama)](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_csl_jeu_erreurs.md)
+* [Programme (diaporama)](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_programme.pdf)
+* [Jeu des 7 erreurs CSL (diaporama)](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_csl_jeu_erreurs.pdf)
 * Exercices de style (diaporama) - lien à venir
 * [Consignes d'un style imaginaire, le style Garni](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_consignes_garni.md)
 * Bibliothèque : kit CSL, ressources et exemples - lien à venir
