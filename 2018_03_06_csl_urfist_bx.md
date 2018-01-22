@@ -777,51 +777,12 @@ La date originale d’un document est exprimée par une  variable de type `date`
 
 Ex : `<date variable="original-date" date-part="year"/>`
 
-La date originale doit être saisie dans le champ _Extra_ de la notice Zotero, sous la forme : `{:original-date: 1876}`.
+La date originale doit être saisie dans le champ _Extra_ de la notice Zotero, sous la forme : `original-date: 1876`.
 
 ### Exercice de style date originale
 ![travail](img/brico.png)
 
 Modifiez le style _Elsevier Harvard (with titles)_ pour afficher la date originale selon les consignes du style Garni.
-
-#### Le code
-_Avant_
-
-```
-<macro name="issued">
-    <choose>
-      <if variable="issued">
-        <date variable="issued">
-          <date-part name="year"/>
-        </date>
-      </if>
-      <else>
-        <text term="no date" form="short"/>
-      </else>
-    </choose>
-  </macro>
-```
-
-_Après_
-
-```
-<macro name="issued">
-    <choose>
-      <if variable="issued">
-        <group delimiter=" ">
-          <date variable="original-date" date-part="year" prefix="[" suffix="]"/>
-          <date variable="issued">
-            <date-part name="year"/>
-          </date>
-        </group>
-      </if>
-      <else>
-        <text term="no date" form="short"/>
-      </else>
-    </choose>
-  </macro>
-```
-
 
 ## Langues
 Certains styles sont agnostiques du point de vue la langue, d'autres sont "localisés".
@@ -829,6 +790,8 @@ Certains styles sont agnostiques du point de vue la langue, d'autres sont "local
 Dans un cas comme dans l'autre, ils utilisent par défaut des traductions communes pour les termes bibliographiques, encodées dans les fichiers `locale`. Exemple : [Fichier locale fr-FR](https://github.com/citation-style-language/locales/blob/master/locales-fr-FR.xml)
 
 Dans un cas comme dans l'autre,si les traductions par défaut ne correspondent pas aux consignes du style, il est possible de recourir à des termes autres, en les encodant dans un élément `locale` du fichier CSL (voir _supra_ exemple de l'abréviation de numéro pour le style Garni).
+
+Dans un cas comme dans l'autre, limiter au maximum le recours à des `text term=" "` pour définir des chaînes de carcatère et aux affixes pour paramétrer la ponctuation assure que sont style soit le plus **réutilisable** possible.
 
 ### Styles génériques
 Les styles agnostiques du point de vue de la langue ne comportent pas d'attribut `default-locale`. Ils peuvent être utilisés dans toutes les langues.
@@ -844,7 +807,8 @@ Les styles non localisés en `en-` comporte en clair dans leur intitulé la lang
 
 Dans l'entrepôt des styles Zotero on peut retrouver les styles localisés dans une langue en indiquant le nom de la langue dans le formulaire de recherche : _french_ affichera ainsi tous les styles ayant un attribut `default-locale="fr-XX"`.
 
-Si la localisation permet de définir des spécificités propres à la langue différentes de celles prévues par défaut (en termes de ponctuation notamment, qui n'est pas forcément entièrement paramétrable dans l'élément `locale`), elle limite considérablement la possibilité de les réutiliser.
+#### Dans quel cas localiser un style?
+Limiter l'utilisation d'un style à une langue déterminée permet d'éviter les erreurs de la part des utilisateurs : quelle que soit la langue par défaut de l'utilisateur, ce dernier ne pourra pas rédiger les éléments bibliographiques dans une autre langue que celle prévue par le style bibliographique. Une revue publiant des articles dans une unique langue se prémunira ainsi des erreurs de langue en localisant son style bibliographique.
 
 ## Rechercher un style à partir de caractéristiques précises
 [L'entrepôt des styles Zotero](https://www.zotero.org/styles) vous permet de naviguer dans les styles existants par des facettes portant sur :
