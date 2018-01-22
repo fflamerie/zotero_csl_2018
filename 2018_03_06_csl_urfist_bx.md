@@ -791,7 +791,7 @@ Dans un cas comme dans l'autre, ils utilisent par défaut des traductions commun
 
 Dans un cas comme dans l'autre,si les traductions par défaut ne correspondent pas aux consignes du style, il est possible de recourir à des termes autres, en les encodant dans un élément `locale` du fichier CSL (voir _supra_ exemple de l'abréviation de numéro pour le style Garni).
 
-Dans un cas comme dans l'autre, limiter au maximum le recours à des `text term=" "` pour définir des chaînes de carcatère et aux affixes pour paramétrer la ponctuation assure que sont style soit le plus **réutilisable** possible.
+Dans un cas comme dans l'autre, limiter au maximum le recours à des `text value=" "` pour définir des chaînes de carcatère et aux affixes pour paramétrer la ponctuation assure que sont style soit le plus **réutilisable** possible.
 
 ### Styles génériques
 Les styles agnostiques du point de vue de la langue ne comportent pas d'attribut `default-locale`. Ils peuvent être utilisés dans toutes les langues.
@@ -816,7 +816,7 @@ Limiter l'utilisation d'un style à une langue déterminée permet d'éviter les
 * le type de style (numérique, auteur-date, etc.),
 * le champ disciplinaire.
 
-Vous pouvez également rechercehr un style, mais cette recherceh porte uniquement sur l'intitulé du style, qui ne comporte pas toutes ces caractéristiques.
+Vous pouvez également rechercehr un style, mais cette recherche porte uniquement sur l'intitulé du style, qui ne comporte pas toutes ces caractéristiques.
 
 Comment procéder si vous souhaitez retrouver tous les styles qui utilisent la mention _Ibid._?
 
