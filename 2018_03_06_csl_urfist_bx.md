@@ -1,3 +1,18 @@
+<!--ligne 394-->
+- [x] créer entrepôt GitHub
+- [ ] reprendre les commentaires
+- [x] check liens hypertexte + mise en forme liens spécif CSL
+- [x] bibliographie
+- [ ] fichier zotero-csl.rdf
+- [x] exercice macro auteur
+- [x] exercice macro conditionnelle
+- [x] exercice élément citation
+- [x] 5. éditeur de style : intégrer images mquantes
+- [x]  subsitut nom d'auteur
+- [x] fichier exercice avec corrigé : ajouter exercice date originale
+- [X] demander meilleur pratique locale-->
+
+
 # Créer des styles bibliographiques personnalisés CSL
 
 # 1. Introduction
@@ -213,7 +228,7 @@ Retenons également la bonne pratique 3 recommandées dans ce billet par adamsmi
 ### Style agnostique du point de vue de la **langue** vs. style localisé
 On en parlera dans les _Miscellanées_ ; pour rendre agnostique du point de vue de la langue un style localisé, il suffit de supprimer l'attribut `default-locale`.
 
-#### Style dépendant vs. style indépendant.
+### Style dépendant vs. style indépendant.
 Dans un souci d'économie de code, certains styles sont dépendants d'un autre style. Dans ce cas là, le fichier CSL se réduit à un élément info. La référence au style principal est indiquée par l'attribut `rel="independent-parent"`.
 Exemple du style [Loisir et Société / Society and Leisure](https://www.zotero.org/styles/loisir-et-societe-society-and-leisure)
 
@@ -280,7 +295,7 @@ Installez le style [_Elsevier - Harvard (with titles)_](https://www.zotero.org/s
 Téléchargez les [consignes du style Garni](lien à ajouter).<!--lien à ajouter-->
 
 # 5. L'éditeur de styles Zotero
-Un billet récent du blog Zotero francophone [Titre du billet](lien à ajouter)<!--lien à ajouter--> détaille les différents outils diponibles pour l'édition de styles CSL.
+Un billet récent du blog Zotero francophone [Quel outil pour éditer des styles CSL?](https://zotero.hypotheses.org/758) détaille les différents outils diponibles pour l'édition de styles CSL.
 
 Aujourd'hui nous nous limitons :
 * à l'éditeur de styles Zotero,
@@ -378,7 +393,7 @@ Avant tout travail d'édition sur un style existant, modifiez le contenu de ces 
 ### Etape 2. Générer le fichier CSL
 Le bouton _Enregistrer sous..._ de l'éditeur de style génère un fichier CSL, qu'il suffit d'enregistrer en veillant à bien spécifier l'extension **.csl** (et à ne pas laisser Windows ajouter une extension .txt).
 
-**NB** : votre travail d'édition n'est pas sauvegardé ni enregistré tant que vous n'avez pas généré le fichier CSL.
+**NB** : Votre travail d'édition n'est pas sauvegardé ni enregistré tant que vous n'avez pas généré le fichier CSL.
 
 ### Etape 3. Installer le style dans Zotero
 Deux méthodes sont possibles.
@@ -540,7 +555,7 @@ Comment les appels de citation sont-ils formatés dans ce style?
 ### Désambiguïser
 Dans les styles auteur-date, l'élément `citation` doit comporter des règle de désambiguïsation des appels de citation (documents distincts ayant le même premier auteur et la même date de publication). CSL envisage cette désambiguïsation selon 3 étapes, exprimées par des attributs de l'élément `citation`.
 
-Présentons en bref les 3 étapes détaillées dans [Spécification CSL : Disambiguation] (http://docs.citationstyles.org/en/1.0.1/specification.html#disambiguation)
+Présentons en bref les 3 étapes détaillées dans [Spécification CSL : Disambiguation](http://docs.citationstyles.org/en/1.0.1/specification.html#disambiguation)
 
 #### Etape 1
 `disambiguate-add-names` : par l’ajout d’un nom, sans tenir compte du paramétrage du _et al_
@@ -780,7 +795,7 @@ Ex : `<date variable="original-date" date-part="year"/>`
 La date originale doit être saisie dans le champ _Extra_ de la notice Zotero, sous la forme : `original-date: 1876`.
 
 ### Exercice de style date originale
-![travail](img/brico.png)
+![travail](img/icone_brico.png)
 
 Modifiez le style _Elsevier Harvard (with titles)_ pour afficher la date originale selon les consignes du style Garni.
 
@@ -789,9 +804,9 @@ Certains styles sont agnostiques du point de vue la langue, d'autres sont "local
 
 Dans un cas comme dans l'autre, ils utilisent par défaut des traductions communes pour les termes bibliographiques, encodées dans les fichiers `locale`. Exemple : [Fichier locale fr-FR](https://github.com/citation-style-language/locales/blob/master/locales-fr-FR.xml)
 
-Dans un cas comme dans l'autre,si les traductions par défaut ne correspondent pas aux consignes du style, il est possible de recourir à des termes autres, en les encodant dans un élément `locale` du fichier CSL (voir _supra_ exemple de l'abréviation de numéro pour le style Garni).
+Dans un cas comme dans l'autre, si les traductions par défaut ne correspondent pas aux consignes du style, il est possible de recourir à des termes autres, en les encodant dans un élément `locale` du fichier CSL (voir _supra_ exemple de l'abréviation de numéro pour le style Garni).
 
-Dans un cas comme dans l'autre, limiter au maximum le recours à des `text value=" "` pour définir des chaînes de carcatère et aux affixes pour paramétrer la ponctuation assure que sont style soit le plus **réutilisable** possible.
+Dans un cas comme dans l'autre, limiter au maximum le recours à des `text value=" "` pour définir des chaînes de carcatère et aux affixes pour paramétrer la ponctuation assure que son style soit le plus **réutilisable** possible.
 
 ### Styles génériques
 Les styles agnostiques du point de vue de la langue ne comportent pas d'attribut `default-locale`. Ils peuvent être utilisés dans toutes les langues.
@@ -816,7 +831,7 @@ Limiter l'utilisation d'un style à une langue déterminée permet d'éviter les
 * le type de style (numérique, auteur-date, etc.),
 * le champ disciplinaire.
 
-Vous pouvez également rechercehr un style, mais cette recherche porte uniquement sur l'intitulé du style, qui ne comporte pas toutes ces caractéristiques.
+Vous pouvez également rechercher un style, mais cette recherceh porte uniquement sur l'intitulé du style, qui ne comporte pas toutes ces caractéristiques.
 
 Comment procéder si vous souhaitez retrouver tous les styles qui utilisent la mention _Ibid._?
 
