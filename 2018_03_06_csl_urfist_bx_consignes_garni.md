@@ -1,5 +1,5 @@
 
-# Protocole 2 :
+# Consignes du style Garni
 À la fin de l'ouvrage, une bibliographie exhaustive, avec répétition du nom d’auteur pour chaque ouvrage, selon le modèle :
 
 Barthes Roland, [1966] 2002a, « Introduction à l’analyse structurale des récits », _OEuvres complètes_, Éric Marty (éd.), 5 vol., Paris Éditions du Seuil, vol. 2, p. 828-865.
