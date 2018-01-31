@@ -262,7 +262,7 @@ D'autres élements, `group` et `choose`, par exemple, sont davantage des éléme
 
 C'est le moment de revenir sur les bonnes pratiques d'écriture recommandées par adamsmith, avec la bonne pratique 1.
 
-Source :adamsmith. (2013, 28 octobre). Writing CSL - Features and Best Practices. _The Zoteroist_. Repéré à <https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/](https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/>
+Source : adamsmith. (2013, 28 octobre). Writing CSL - Features and Best Practices. _The Zoteroist_. Repéré à <https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/](https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/>
 
 >Bonne pratique 1 : Préférez les `group` et les `group delimiters` aux affixes pour la ponctuation et les espaces entre les objets.
 
