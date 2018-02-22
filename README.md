@@ -4,9 +4,9 @@ Le matériel est composé des éléments suivants.
 * [Document de cours](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx.md)
 * [Programme (diaporama)](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_programme.pdf)
 * [Jeu des 7 erreurs CSL (diaporama)](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_csl_jeu_erreurs.pdf)
-* Exercices de style (diaporama) - lien à venir
+* Exercices de style - lien à venir
 * [Consignes d'un style imaginaire, le style Garni](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_consignes_garni.pdf)
-* Bibliothèque : kit CSL, ressources et exemples - lien à venir
+* [Bibliothèque : kit CSL, ressources et exemples](https://github.com/fflamerie/zotero_csl_2018/blob/master/zotero-csl.rdf)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br />Les supports sont mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 3.0 France</a>.
 
