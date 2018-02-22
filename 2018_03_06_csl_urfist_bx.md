@@ -273,11 +273,11 @@ Et rappelons la bonne pratique 3.
 
 ![travail](img/icone_brico.png)
 
-Importez dans votre bibliothèque le [fichier zotero-csl.rdf](lien à ajouter). <!--lien à ajouter-->
+Importez dans votre bibliothèque le  [fichier zotero-csl.rdf](https://github.com/fflamerie/zotero_csl_2018/blob/master/zotero-csl.rdf).
 
 Installez le style [_Elsevier - Harvard (with titles)_](https://www.zotero.org/styles/elsevier-harvard).
 
-Téléchargez les [consignes du style Garni](lien à ajouter).<!--lien à ajouter-->
+Téléchargez les [consignes du style Garni](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_consignes_garni.pdf).
 
 # 5. L'éditeur de styles Zotero
 Un billet récent du blog Zotero francophone [Quel outil pour éditer des styles CSL?](https://zotero.hypotheses.org/758) détaille les différents outils diponibles pour l'édition de styles CSL.
