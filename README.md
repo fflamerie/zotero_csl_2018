@@ -2,8 +2,8 @@
 Matériel de la formation ["Créer des styles bibliographiques personnalisés pour Zotero et Mendeley : utilisateurs avancés"](https://sygefor.reseau-urfist.fr/#!/training/7235/7907/) organisée par l'Urfist Bordeaux à l'Université de Poitiers le 2018-03-06, 9h-16h.
 Le matériel est composé des éléments suivants.
 * Document de cours - [md](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_cours.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_cours.pdf)
-* [Programme (diaporama)] - [md](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_programme.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_programme.pdf)
-* [Jeu des 7 erreurs CSL (diaporama)] - [md](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_csl_jeu_erreurs.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_csl_jeu_erreurs.pdf)
+* Programme (diaporama) - [md](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_programme.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_programme.pdf)
+* Jeu des 7 erreurs CSL (diaporama) - [md](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_csl_jeu_erreurs.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_csl_jeu_erreurs.pdf)
 * [Consignes d'un style imaginaire, le style Garni](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_consignes_garni.pdf)
 * [Bibliothèque : kit CSL, ressources et exemples](https://github.com/fflamerie/zotero_csl_2018/blob/master/zotero-csl.rdf)
 
