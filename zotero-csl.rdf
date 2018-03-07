@@ -1384,4 +1384,42 @@ PMID: 25315513</dcterms:abstract>
         <dcterms:abstract>This page provides general descriptions of Zotero item types and fields. It can be helpful when entering item data into Zotero manually. The page also provides guidance on ways to store information for unusual item types.</dcterms:abstract>
         <dc:title>Zotero Item Types and Fields</dc:title>
     </bib:Document>
+    <bib:Document rdf:about="http://formatter.citationstyles.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>CitationStyles.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zelle</foaf:surname>
+                        <foaf:givenname>Rintze M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_707"/>
+        <dc:subject>kit_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://formatter.citationstyles.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-03-07 07:16:09</dcterms:dateSubmitted>
+        <dcterms:abstract>Outil de formatage du code en ligne, pour notamment réindenter facilement et rapidement le code.</dcterms:abstract>
+        <dc:title>CSL Style Formatter</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_707">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://formatter.citationstyles.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-03-07 07:16:10</dcterms:dateSubmitted>
+        <dc:title>CSL Style Formatter</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
 </rdf:RDF>
