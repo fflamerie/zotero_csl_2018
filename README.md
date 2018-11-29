@@ -1,12 +1,12 @@
 # Créer des styles bibliographiques en CSL
 Matériel de la formation ["Créer des styles bibliographiques personnalisés pour Zotero et Mendeley : utilisateurs avancés"](https://sygefor.reseau-urfist.fr/#!/training/7235/7907/) organisée par l'Urfist Bordeaux à l'Université de Poitiers le 2018-03-06, 9h-16h.
 Le matériel est composé des éléments suivants.
-* Document de cours - [md](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_cours.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_cours.pdf)
-* Programme (diaporama) - [md](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_programme.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_programme.pdf)
-* Jeu des 7 erreurs CSL (diaporama) - [md](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_csl_jeu_erreurs.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_csl_jeu_erreurs.pdf)
-* Exercices de style - [md](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_exercices_style.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_csl_exercices_style.pdf)
-* [Consignes d'un style imaginaire, le style Garni](https://github.com/fflamerie/zotero_csl_2018/blob/master/2018_03_06_csl_urfist_bx_consignes_garni.pdf)
-* [Bibliothèque : kit CSL, ressources et exemples](https://github.com/fflamerie/zotero_csl_2018/blob/master/zotero-csl.rdf)
+* Document de cours - [md](https://github.com/fflamerie/zotero_csl_2018/blob/2018_03/2018_csl_cours.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/2018_03/2018_csl_cours.pdf)
+* Programme (diaporama) - [md](https://github.com/fflamerie/zotero_csl_2018/blob/2018_03/2018_csl_programme.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/2018_03/2018_csl_programme.pdf)
+* Jeu des 7 erreurs CSL (diaporama) - [md](https://github.com/fflamerie/zotero_csl_2018/blob/2018_03/2018_csl_csl_jeu_erreurs.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/2018_03/2018_csl_csl_jeu_erreurs.pdf)
+* Exercices de style - [md](https://github.com/fflamerie/zotero_csl_2018/blob/2018_03/2018_csl_exercices_style.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/2018_03/2018_csl_exercices_style.pdf)
+* [Consignes d'un style imaginaire, le style Garni](https://github.com/fflamerie/zotero_csl_2018/blob/2018_03/2018_03_06_csl_urfist_bx_consignes_garni.pdf)
+* [Bibliothèque : kit CSL, ressources et exemples](https://github.com/fflamerie/zotero_csl_2018/blob/2018_03/zotero-csl.rdf)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br />Les supports sont mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 3.0 France</a>.
 
