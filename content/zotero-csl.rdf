@@ -1,0 +1,1411 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Document rdf:about="http://character-code.com/punctuation-html-codes.php">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Website Builder</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Website Builder</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>kit_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://character-code.com/punctuation-html-codes.php</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-12-18</dcterms:dateSubmitted>
+        <dcterms:abstract>Tools / HTML Character Codes / Punctuation</dcterms:abstract>
+        <dc:title>Punctuation</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="http://www.mus.ulaval.ca/roberge/gdrm/08-codes.htm#espaces_tirets">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+               <dc:title>Guide des difficultés de rédaction en musique</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Roberge</foaf:surname>
+                        <foaf:givenname>Marc-André</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>kit_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.mus.ulaval.ca/roberge/gdrm/08-codes.htm#espaces_tirets</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-12-18</dcterms:dateSubmitted>
+        <dcterms:abstract>Rubrique : Codes numériques et raccourcis clavier pour la saisie des espaces et des tirets dans Microsoft Word et Corel WordPerfect</dcterms:abstract>
+        <dc:title>Codes numériques pour la saisie des signes typographiques et diacritiques et des symboles musicaux</dc:title>
+    </bib:Document>
+    <rdf:Description rdf:about="http://aurimasv.github.io/z2csl/typeMap.xml">
+        <z:itemType>document</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vinckevicius</foaf:surname>
+                        <foaf:givenname>Aurimas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_698"/>
+        <dc:subject>kit_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://aurimasv.github.io/z2csl/typeMap.xml</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-12-18</dcterms:dateSubmitted>
+        <dcterms:abstract>Uptodate Zotero to CSL item type and field mappings generated with z2csl</dcterms:abstract>
+        <dc:title>Zotero to CSL item type and field mappings</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_698">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>typeMap.xml.htm</dc:title>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://genomebiology.com/2014/15/7/424/abstract">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1465-6906"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hall</foaf:surname>
+                        <foaf:givenname>Neil</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://genomebiology.com/2014/15/7/424/abstract</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:rights>2014 Hall; licensee BioMed Central</dc:rights>
+        <bib:pages>424</bib:pages>
+        <dc:date>2014-07-30</dc:date>
+        <dc:description>PMID: 25315513</dc:description>
+        <dcterms:dateSubmitted>2014-11-04 10:51:29</dcterms:dateSubmitted>
+        <z:libraryCatalog>genomebiology.com</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>In the era of social media there are now many different ways that a scientist can build their public profile; the publication of high-quality scientific papers being just one. While social media is a valuable tool for outreach and the sharing of ideas, there is a danger that this form of communication is gaining too high a value and that we are losing sight of key metrics of scientific value, such as citation indices. To help quantify this, I propose the ‘Kardashian Index’, a measure of discrepancy between a scientist’s social media profile and publication record based on the direct comparison of numbers of citations and Twitter followers.
+PMID: 25315513</dcterms:abstract>
+        <dc:title>The Kardashian index: a measure of discrepant social media profile for scientists</dc:title>
+        <z:shortTitle>The Kardashian index</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1465-6906">
+        <prism:volume>15</prism:volume>
+        <prism:number>7-8</prism:number>
+        <dc:title>Genome Biology</dc:title>
+        <dc:identifier>ISSN 1465-6906</dc:identifier>
+        <dc:identifier>DOI 10.1186/s13059-014-0424-0</dc:identifier>
+    </bib:Journal>
+    <bib:Thesis rdf:about="#item_123">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>France</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Université d'Orléans</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wei</foaf:surname>
+                        <foaf:givenname>Liping</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:date>2014</dc:date>
+        <z:libraryCatalog>Library Catalog - www.sudoc.abes.fr</z:libraryCatalog>
+        <z:type>Thèse de doctorat</z:type>
+        <z:language>anglais</z:language>
+        <dc:title>Impacts des caractéristiques du peuplement et des cloisonnements sur la biodiversité floristique en forêt de plaine</dc:title>
+        <z:numPages>322</z:numPages>
+    </bib:Thesis>
+    <bib:Article rdf:about="#item_127">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1505-2249"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akbar</foaf:surname>
+                        <foaf:givenname>Khalid F.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hale</foaf:surname>
+                        <foaf:givenname>William H. G.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Headley</foaf:surname>
+                        <foaf:givenname>Alistair D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ashraf</foaf:surname>
+                        <foaf:givenname>Iffat</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <bib:pages>459-467</bib:pages>
+        <dc:date>2010</dc:date>
+        <dc:description>WOS:000281936100005</dc:description>
+        <z:language>English</z:language>
+        <dcterms:abstract>The roadside verges and their vegetation in selected counties of north England were evaluated for their conservation status. Thirty five different road sections each 50 m long along different A and B class roads were surveyed and the criteria selected for conservation evaluation included verge area, plant diversity, species richness, disturbance, presence of rare species and structure of hedges. A field assessment sheet was prepared in which, for each factor, a numerical rating system was used. For each factor, information was recorded to help the surveyor in choosing the appropriate score for that site. The rarity of recorded species was determined from the published sources. Most of the surveyed verges (54%) are of low conservation value, 40% are of medium conservation value and only 6% have high conservation status. Despite the unsatisfactory situation, there is considerable potential for using roadside verges for nature conservation because medium class verges could be improved by adopting sound management techniques.</dcterms:abstract>
+        <dc:title>Evaluation of conservation status of roadside verges and their vegetation in North England</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1505-2249">
+        <prism:volume>58</prism:volume>
+        <prism:number>3</prism:number>
+        <dc:title>Polish Journal of Ecology</dc:title>
+        <dc:identifier>ISSN 1505-2249</dc:identifier>
+        <dcterms:alternative>Pol. J. Ecol.</dcterms:alternative>
+    </bib:Journal>
+    <bib:Thesis rdf:about="#item_128">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>France</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Université Paris Ouest Nanterre La Défense</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dalil</foaf:surname>
+                        <foaf:givenname>Brahim</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:date>2015</dc:date>
+        <z:libraryCatalog>Library Catalog - www.sudoc.abes.fr</z:libraryCatalog>
+        <z:type>Thèse de doctorat</z:type>
+        <z:language>français</z:language>
+        <dc:title>Le droit administratif face au principe de la sécurité juridique</dc:title>
+    </bib:Thesis>
+    <bib:BookSection rdf:about="urn:isbn:978-1-906924-67-6">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 978-1-906924-67-6</dc:identifier>
+                <dc:title>Women in nineteenth-century Russia: lives and culture</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cambridge</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Open Book Publishers</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rosenholm</foaf:surname>
+                        <foaf:givenname>Arja</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Savkina</foaf:surname>
+                        <foaf:givenname>Irina</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rosslyn</foaf:surname>
+                        <foaf:givenname>Wendy</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tosi</foaf:surname>
+                        <foaf:givenname>Alessandra</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://books.openedition.org/obp/1253</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>161-207</bib:pages>
+        <dc:date>2013-09-30</dc:date>
+        <dcterms:dateSubmitted>2015-09-19 13:54:20</dcterms:dateSubmitted>
+        <z:libraryCatalog>OpenEdition Books</z:libraryCatalog>
+        <dc:title>8. ’How Women Should Write’: Russian Women’s Writing in the Nineteenth Century</dc:title>
+        <z:shortTitle>8. ’How Women Should Write’</z:shortTitle>
+    </bib:BookSection>
+    <rdf:Description rdf:about="https://hal.archives-ouvertes.fr/hal-00810976">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Acoustics 2012 Nantes</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Nantes</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Société Française d'Acoustique</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fritz</foaf:surname>
+                        <foaf:givenname>Claudia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Curtin</foaf:surname>
+                        <foaf:givenname>Joseph</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Poitevineau</foaf:surname>
+                        <foaf:givenname>Jacques</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tao</foaf:surname>
+                        <foaf:givenname>Fan-Chia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://hal.archives-ouvertes.fr/hal-00810976</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>32-46</bib:pages>
+        <dc:date>2012-04-23</dc:date>
+        <dcterms:dateSubmitted>2015-09-19 14:02:33</dcterms:dateSubmitted>
+        <z:libraryCatalog>hal.upmc.fr</z:libraryCatalog>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>Acoustics 2012</dc:title></bib:Conference>
+        </bib:presentedAt>
+        <z:language>en</z:language>
+        <dcterms:abstract>Most violinists believe that the instruments of Stradivari and Guarneri 'del Gesu' are tonally superior to other violins  and to new violins in particular. Many mechanical and acoustical factors have been proposed to account for this. However, the fundamental premise of tonal superiority has not yet been properly investigated. We therefore designed a playing test in which 21 experienced violinists each compared three violins by Stradivari and Guarneri 'del Gesu' with three high quality new instruments, under double-blind conditions in a room with relatively dry acoustics. We found that (1) the most-preferred violin was new and the least-preferred was by Stradivari; (2) there was very little correlation between an instrument's age and monetary value and its perceived quality, and (3) most players seemed unable to tell whether their most-preferred instrument was new or old. These results present a striking challenge to conventional wisdom. Differences in taste among individual players along with differences in playing qualities among individual instruments appear more important than any general differences between new and old violins.</dcterms:abstract>
+        <dc:title>Old violins or new: which do players prefer?</dc:title>
+        <z:shortTitle>Old violins or new</z:shortTitle>
+    </rdf:Description>
+    <bib:Book rdf:about="urn:isbn:978-2-917217-49-8">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Manuella éd.</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Foucault</foaf:surname>
+                        <foaf:givenname>Michel</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bancilhon</foaf:surname>
+                        <foaf:givenname>Michèle</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Association pour le Centre Michel Foucault</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>ISBN 978-2-917217-49-8</dc:identifier>
+        <dc:date>2013</dc:date>
+        <z:libraryCatalog>Library Catalog - www.sudoc.abes.fr</z:libraryCatalog>
+        <z:language>français</z:language>
+        <dc:title>Les Grecs disaient que les paroles avaient des ailes</dc:title>
+        <z:numPages>6</z:numPages>
+    </bib:Book>
+    <bib:Document rdf:about="https://github.com/citation-style-language/locales/blob/master/locales-fr-FR.xml">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>GitHub</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>citation-style-language</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>kit_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://github.com/citation-style-language/locales/blob/master/locales-fr-FR.xml</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-12-18</dcterms:dateSubmitted>
+        <dcterms:abstract>locales - Official repository for Citation Style Language (CSL) locale files.</dcterms:abstract>
+        <dc:title>CSL - locale fr-FR</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="https://www.zotero.org/support/dev/localization">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Zotero</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Zotero</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>kit_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.zotero.org/support/dev/localization</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017</dc:date>
+        <dcterms:dateSubmitted>2017-12-18</dcterms:dateSubmitted>
+        <dc:title>Localization [Zotero documentation]</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="http://docs.citationstyles.org/en/stable/specification.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zelle</foaf:surname>
+                        <foaf:givenname>Rintze M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>kit_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://docs.citationstyles.org/en/stable/specification.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-12-18</dcterms:dateSubmitted>
+        <dc:title>CSL 1.0.1 Specification</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="https://github.com/citation-style-language/styles/blob/master/CONTRIBUTING.md">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>GitHub</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>citation-style-language</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>kit_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://github.com/citation-style-language/styles/blob/master/CONTRIBUTING.md</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-12-18</dcterms:dateSubmitted>
+        <dc:title>Guide to Submitting CSL Styles (and CSL Locales)</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="https://github.com/citation-style-language/styles/wiki/Style-Requirements">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>GitHub</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>citation-style-language</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>kit_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://github.com/citation-style-language/styles/wiki/Style-Requirements</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-12-18</dcterms:dateSubmitted>
+        <dc:title>Style Requirements</dc:title>
+    </bib:Document>
+    <bib:Article rdf:about="http://www.tandfonline.com/doi/abs/10.1080/14772000.2012.753137">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1477-2000,%201478-0933"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fedosov</foaf:surname>
+                        <foaf:givenname>Alexander E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Puillandre</foaf:surname>
+                        <foaf:givenname>Nicolas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.tandfonline.com/doi/abs/10.1080/14772000.2012.753137</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>447-477</bib:pages>
+        <dc:date>2012/12</dc:date>
+        <dcterms:dateSubmitted>2014-08-08 11:55:32</dcterms:dateSubmitted>
+        <z:libraryCatalog>CrossRef</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Phylogeny and taxonomy of the &lt;i&gt;Kermia–Pseudodaphnella&lt;/i&gt; (Mollusca: Gastropoda: Raphitomidae) genus complex: a remarkable radiation via diversification of larval development</dc:title>
+        <z:shortTitle>Phylogeny and taxonomy of the Kermia–Pseudodaphnella (Mollusca</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1477-2000,%201478-0933">
+        <prism:volume>10</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>Systematics and Biodiversity</dc:title>
+        <dc:identifier>ISSN 1477-2000, 1478-0933</dc:identifier>
+        <dc:identifier>DOI 10.1080/14772000.2012.753137</dc:identifier>
+    </bib:Journal>
+    <bib:BookSection rdf:about="urn:isbn:978-2-85653-707-7">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 978-2-85653-707-7</dc:identifier>
+                <dc:title>Zoologia Neocaledonica.8 Biodiversity Studies in New Caledonia</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Publications Scientifiques du Muséum</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grandcolas</foaf:surname>
+                        <foaf:givenname>P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nattier</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pellens</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Legendre</foaf:surname>
+                        <foaf:givenname>F.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Guilbert</foaf:surname>
+                        <foaf:givenname>E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Robillard</foaf:surname>
+                        <foaf:givenname>T.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jourdan</foaf:surname>
+                        <foaf:givenname>H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grandcolas</foaf:surname>
+                        <foaf:givenname>P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <bib:pages>301-310</bib:pages>
+        <dc:date>2014</dc:date>
+        <dc:title>Diversity and distribution of the genus Rothisilpha (Dictyoptera, Blattidae) in New Caledonia : Evidence from new microendemic species</dc:title>
+    </bib:BookSection>
+    <bib:BookSection rdf:about="#item_145">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Why does evolution matters ? The importance of understanding evolution</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Newcastle</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Cambridge Scholars Publishing</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Maurel</foaf:surname>
+                        <foaf:givenname>Marie-Christine</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Trueba</foaf:surname>
+                        <foaf:givenname>G.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <bib:pages>119-133</bib:pages>
+        <dc:date>2014</dc:date>
+        <dcterms:abstract>Based on geological records, evidence exists that life was present on Earth more than 3.5 billion years ago. Although a controversy remains regarding the first discoveries (Schopf et al, 2002; Brazier et al, 2002), it is now widely admitted (Allwood et al, 2006) that the first living cells were already present on the Earth 3.45 billion years ago. During the first billion years, the prebiotic reactions of building blocks led to more complex molecules such as peptides and the Initial Darwinian Ancestor (Yarus 2010) prefiguring the first informational units. This first assembly led to the pre-nucleic acids, then to pre-RNAs and/or related species (Peptidic nucleic acids, PNAs; Threose nucleic acids, TNAs; etc.), and then to the RNA world.</dcterms:abstract>
+        <dc:title>From ancient to modern RNA worlds and vice versa : looking through viroid and ribozyme motifs. The Alternative Genetic system (AGS) and the pre-RNA world</dc:title>
+    </bib:BookSection>
+    <rdf:Description rdf:about="https://media.readthedocs.org/pdf/citation-style-language/master/citation-style-language.pdf">
+        <z:itemType>document</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zelle</foaf:surname>
+                        <foaf:givenname>Rintze M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_699"/>
+        <dc:subject>kit_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://media.readthedocs.org/pdf/citation-style-language/master/citation-style-language.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>04/11/2016</dc:date>
+        <dcterms:dateSubmitted>2017-12-18 13:39:23</dcterms:dateSubmitted>
+        <dc:title>Citation Style Language Documentation</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_699">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>citation-style-language.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://erambler.co.uk/blog/jupyter-notebooks-introduction/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>eRambler</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cope</foaf:surname>
+                        <foaf:givenname>Jez</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://erambler.co.uk/blog/jupyter-notebooks-introduction/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-11-07T14:48:00Z</dc:date>
+        <dcterms:dateSubmitted>2017-11-08 10:43:38</dcterms:dateSubmitted>
+        <dcterms:abstract>A brief example to introduce Jupyter notebooks.</dcterms:abstract>
+        <dc:title>Introduction to Jupyter notebooks</dc:title>
+    </bib:Document>
+    <bib:Book rdf:about="urn:isbn:978-2-200-24418-7%202-200-24418-5">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Armand Colin</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Azoulay</foaf:surname>
+                        <foaf:givenname>Vincent</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <prism:edition>2</prism:edition>
+        <dc:identifier>ISBN 978-2-200-24418-7 2-200-24418-5</dc:identifier>
+        <dc:date>2016</dc:date>
+        <dc:description>original-date: 2010</dc:description>
+        <z:libraryCatalog>Open WorldCat</z:libraryCatalog>
+        <z:language>French</z:language>
+        <dc:title>Périclès. La démocratie athénienne à l'épreuve du grand homme</dc:title>
+    </bib:Book>
+    <bib:BookSection rdf:about="urn:isbn:978-90-04-21760-7">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 978-90-04-21760-7</dc:identifier>
+                <dc:title>A New Companion to Homer</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Leiden &amp; Boston</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>E. J. Brill</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schein</foaf:surname>
+                        <foaf:givenname>Seth L.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Morris</foaf:surname>
+                        <foaf:givenname>Ian</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Powell</foaf:surname>
+                        <foaf:givenname>Barry</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://booksandjournals.brillonline.com.janus.biu.sorbonne.fr/content/books/9789004217607</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <prism:edition>2</prism:edition>
+        <bib:pages>345-359</bib:pages>
+        <dc:date>1997</dc:date>
+        <dc:description>DOI: 10.1163/9789004217607</dc:description>
+        <dcterms:dateSubmitted>2017-09-19 08:57:35</dcterms:dateSubmitted>
+        <z:libraryCatalog>booksandjournals.brillonline.com.janus.biu.sorbonne.fr</z:libraryCatalog>
+        <dc:title>The &lt;i&gt;Iliad&lt;/i&gt;: Structure and Interpretation</dc:title>
+    </bib:BookSection>
+    <bib:Article rdf:about="http://www.jstor.org.janus.biu.sorbonne.fr/stable/1215523">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0009837X,%201546072X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Acosta-Hughes</foaf:surname>
+                        <foaf:givenname>Benjamin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stephens</foaf:surname>
+                        <foaf:givenname>Susan A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.jstor.org.janus.biu.sorbonne.fr/stable/1215523</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>238-255</bib:pages>
+        <dc:date>2002</dc:date>
+        <dc:title>Rereading Callimachus' &quot;Aetia&quot; Fragment 1</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0009837X,%201546072X">
+        <prism:volume>97</prism:volume>
+        <prism:number>3</prism:number>
+        <dc:title>Classical Philology</dc:title>
+        <dc:identifier>ISSN 0009837X, 1546072X</dc:identifier>
+        <dcterms:alternative>CPh</dcterms:alternative>
+    </bib:Journal>
+    <bib:Article rdf:about="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GAZPAJ">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:identifier>DOI 10.7910/DVN/GAZPAJ</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Briney</foaf:surname>
+                        <foaf:givenname>Kristin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goben</foaf:surname>
+                        <foaf:givenname>Abigail</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zilinski</foaf:surname>
+                        <foaf:givenname>Lisa</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GAZPAJ</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2015-09-22</dc:date>
+        <dc:description>type: dataset</dc:description>
+        <dcterms:dateSubmitted>2017-12-04 09:51:48</dcterms:dateSubmitted>
+        <z:libraryCatalog>dataverse.harvard.edu</z:libraryCatalog>
+        <dcterms:abstract>This data corresponds to the article &quot;Do You Have an Institutional Data Policy? A Review of the Current Landscape of Library Data Services and Institutional Data Policies&quot; and covers 206 US universities classified as Carnegie &quot;High&quot; and &quot;Very High&quot; research levels. The dataset includes the following information for each school: basic demographics, basic information on library data services, existence of university data policy by type, and general information on policy contents where policy exists. Please see the data dictionary and the article for a full description of the dataset and its use.</dcterms:abstract>
+        <dc:title>Data from: Do You Have an Institutional Data Policy? A Review of the Current Landscape of Library Data Services and Institutional Data Policies</dc:title>
+        <z:shortTitle>Data from</z:shortTitle>
+    </bib:Article>
+    <bib:ConferenceProceedings rdf:about="https://www.repository.cam.ac.uk/handle/1810/269913">
+        <z:itemType>presentation</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>London</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:presenters>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kingsley</foaf:surname>
+                        <foaf:givenname>Danny</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:presenters>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.repository.cam.ac.uk/handle/1810/269913</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:rights>Attribution 4.0 International</dc:rights>
+        <dc:date>2017-12-06</dc:date>
+        <dc:description>10.17863/CAM.16788</dc:description>
+        <dcterms:dateSubmitted>2017-12-06 10:07:02</dcterms:dateSubmitted>
+        <z:meetingName>London Information International</z:meetingName>
+        <z:language>en</z:language>
+        <dc:title>So did it work? Considering the impact of Finch 5 years on</dc:title>
+        <z:shortTitle>So did it work?</z:shortTitle>
+    </bib:ConferenceProceedings>
+    <bib:Patent rdf:about="https://worldwide.espacenet.com/publicationDetails/biblio?FT=D&amp;date=20150528&amp;DB=EPODOC&amp;locale=en_EP&amp;CC=US&amp;NR=2015148511A1&amp;KC=A1&amp;ND=5">
+        <z:itemType>patent</z:itemType>
+        <z:inventors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smith</foaf:surname>
+                        <foaf:givenname>Steven Daryl</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mcchain</foaf:surname>
+                        <foaf:givenname>Robert Joseph</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gizaw</foaf:surname>
+                        <foaf:givenname>Yonas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Panandiker</foaf:surname>
+                        <foaf:givenname>Rajan Keshav</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barrera</foaf:surname>
+                        <foaf:givenname>Carola</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:inventors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://worldwide.espacenet.com/publicationDetails/biblio?FT=D&amp;date=20150528&amp;DB=EPODOC&amp;locale=en_EP&amp;CC=US&amp;NR=2015148511A1&amp;KC=A1&amp;ND=5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>CIB: C08G77/42</dc:description>
+        <dcterms:dateSubmitted>2017-12-18 14:23:31</dcterms:dateSubmitted>
+        <z:assignee>The Procter &amp; Gamble Company</z:assignee>
+        <prism:number>US2015148511 (A1)</prism:number>
+        <z:priorityNumbers>WO2013US52585 20130729 ; US201514604776 20150126</z:priorityNumbers>
+        <dc:date>2015-05-28</dc:date>
+        <dcterms:abstract>Inventive organopolysiloxanes and consumer product compositions comprising such organopolysiloxanes. Such compositions can deposit effectively onto target substrates to deliver consumer-desired benefits such as conditioning, anti-wrinkle, softness, and anti-static.</dcterms:abstract>
+        <z:applicationNumber>US201514604776 20150126 Global Dossier</z:applicationNumber>
+        <dc:title>Organopolysiloxane Polymers</dc:title>
+    </bib:Patent>
+    <bib:Book rdf:about="urn:isbn:978-0-8014-1733-7">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+               <dc:title>Cornell studies in classical philology</dc:title>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Ithaca</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Cornell University Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Segal</foaf:surname>
+                        <foaf:givenname>Charles</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.jstor.org/stable/10.7591/j.cttq43wk</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <prism:volume>44</prism:volume>
+        <dc:identifier>ISBN 978-0-8014-1733-7</dc:identifier>
+        <dc:date>1986</dc:date>
+        <dcterms:dateSubmitted>2017-12-18 14:28:13</dcterms:dateSubmitted>
+        <z:libraryCatalog>JSTOR</z:libraryCatalog>
+        <dc:title>The Rhetoric of Imitation: Genre and Poetic Memory in Virgil and Other Latin Poets</dc:title>
+        <z:shortTitle>The Rhetoric of Imitation</z:shortTitle>
+    </bib:Book>
+    <bib:Book rdf:about="urn:isbn:978-2-02-023169-5">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Series><dc:title>Hautes études</dc:title></bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Gallimard/Seuil</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Foucault</foaf:surname>
+                        <foaf:givenname>Michel</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>ISBN 978-2-02-023169-5</dc:identifier>
+        <dc:date>1997</dc:date>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>B2430.F723 F68 1997</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <z:libraryCatalog>Library of Congress ISBN</z:libraryCatalog>
+        <dc:title>Il faut défendre la société : cours au Collège de France, 1975-1976</dc:title>
+        <z:shortTitle>Il faut défendre la société</z:shortTitle>
+        <z:numPages>283</z:numPages>
+    </bib:Book>
+    <bib:Book rdf:about="urn:isbn:978-2-07-072968-5">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Gallimard</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Foucault</foaf:surname>
+                        <foaf:givenname>Michel</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemples_CSL</dc:subject>
+        <dc:identifier>ISBN 978-2-07-072968-5</dc:identifier>
+        <dc:date>1993</dc:date>
+        <z:libraryCatalog>Library Catalog - www.sudoc.abes.fr</z:libraryCatalog>
+        <z:language>français</z:language>
+        <dc:title>Surveiller et punir: naissance de la prison</dc:title>
+        <z:shortTitle>Surveiller et punir</z:shortTitle>
+        <z:numPages>360; 24</z:numPages>
+    </bib:Book>
+    <bib:BookSection rdf:about="#item_173">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <prism:volume>2</prism:volume>
+                <dc:title>Oeuvres complètes</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Éditions du Seuil</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barthes</foaf:surname>
+                        <foaf:givenname>Roland</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marty</foaf:surname>
+                        <foaf:givenname>Éric</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>exemple_style_garni</dc:subject>
+        <dc:subject>exemples_CSL</dc:subject>
+        <bib:pages>828-865</bib:pages>
+        <dc:date>2002</dc:date>
+        <dc:description>original-date: 1966</dc:description>
+        <z:numberOfVolumes>5</z:numberOfVolumes>
+        <dc:title>Introduction à l’analyse structurale des récits</dc:title>
+    </bib:BookSection>
+    <bib:BookSection rdf:about="#item_174">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <prism:volume>3</prism:volume>
+                <dc:title>Oeuvres complètes</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Éditions du Seuil</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barthes</foaf:surname>
+                        <foaf:givenname>Roland</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marty</foaf:surname>
+                        <foaf:givenname>Éric</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:subject>exemple_style_garni</dc:subject>
+        <dc:subject>exemples_CSL</dc:subject>
+        <bib:pages>52-59</bib:pages>
+        <dc:date>2002</dc:date>
+        <dc:description>original-date: 1968</dc:description>
+        <z:numberOfVolumes>5</z:numberOfVolumes>
+        <dc:title>Linguistique et littérature</dc:title>
+    </bib:BookSection>
+    <bib:Book rdf:about="#item_175">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Gallimard</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benveniste</foaf:surname>
+                        <foaf:givenname>Émile</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemple_style_garni</dc:subject>
+        <dc:subject>exemples_CSL</dc:subject>
+        <prism:volume>I</prism:volume>
+        <dc:date>1966</dc:date>
+        <dc:title>Problèmes de linguistique générale</dc:title>
+    </bib:Book>
+    <bib:Book rdf:about="#item_176">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Gallimard</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benveniste</foaf:surname>
+                        <foaf:givenname>Émile</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>exemple_style_garni</dc:subject>
+        <dc:subject>exemples_CSL</dc:subject>
+        <prism:volume>II</prism:volume>
+        <dc:date>1974</dc:date>
+        <dc:title>Problèmes de linguistique générale</dc:title>
+    </bib:Book>
+    <bib:Document rdf:about="https://www.infoclio.ch/fr/node/139551">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>infoclio.ch</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dc:subject>ressources_csl</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.infoclio.ch/fr/node/139551</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-01-16</dcterms:dateSubmitted>
+        <dc:title>Style de citation infoclio.ch - Instructions pour Zotero</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="http://docs.citationstyles.org/en/stable/primer.html#xml-basics">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+                <dc:title>Citation Style Language 1.0.1-dev documentation</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zelle</foaf:surname>
+                        <foaf:givenname>Rintze M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>ressources_csl</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://docs.citationstyles.org/en/stable/primer.html#xml-basics</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-01-16 12:39:43</dcterms:dateSubmitted>
+        <dc:title>Primer - An Introduction to CSL : Understanding CSL Styles : XML Basics</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>The Zoteroist</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>adamsmith</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>ressources_csl</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://zoteromusings.wordpress.com/2013/10/28/writing-csl-features-and-best-practices/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2013-10-28</dc:date>
+        <dcterms:dateSubmitted>2018-01-16 13:04:22</dcterms:dateSubmitted>
+        <dc:title>Writing CSL - Features and Best Practices</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="http://validator.citationstyles.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>CitationStyles.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zelle</foaf:surname>
+                        <foaf:givenname>Rintze M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>kit_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://validator.citationstyles.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-01-16 13:41:11</dcterms:dateSubmitted>
+        <dc:title>CSL Validator</dc:title>
+    </bib:Document>
+    <bib:Data rdf:about="https://github.com/citation-style-language/styles">
+        <z:itemType>computerProgram</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Citation Style Language</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:programmers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>citation-style-language</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:programmers>
+        <dc:subject>ressources_csl</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://github.com/citation-style-language/styles</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-01-16T08:09:30Z</dc:date>
+        <dc:description>original-date: 2010-12-16T22:46:44Z</dc:description>
+        <dcterms:dateSubmitted>2018-01-16 14:58:13</dcterms:dateSubmitted>
+        <z:libraryCatalog>GitHub</z:libraryCatalog>
+        <z:programmingLanguage>Ruby</z:programmingLanguage>
+        <dc:title>Official repository for Citation Style Language (CSL) citation styles</dc:title>
+    </bib:Data>
+    <bib:Document rdf:about="https://www.zotero.org/support/fr/kb/item_types_and_fields">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Zotero</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Zotero</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>kit_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.zotero.org/support/fr/kb/item_types_and_fields</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-02-08 09:39:16</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dcterms:abstract>Cette page décrit les types de documents Zotero et les champs associés. Ces informations peuvent être utiles pour ajouter manuellement des documents dans Zotero ou sur la manière de remplir les champs pour les types de documents moins communs.</dcterms:abstract>
+        <dc:title>Types de documents Zotero et champs</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="http://formatter.citationstyles.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>CitationStyles.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zelle</foaf:surname>
+                        <foaf:givenname>Rintze M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>kit_CSL</dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://formatter.citationstyles.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2018-03-07 07:16:09</dcterms:dateSubmitted>
+        <dcterms:abstract>Outil de formatage du code en ligne, pour notamment réindenter facilement et rapidement le code.</dcterms:abstract>
+        <dc:title>CSL Style Formatter</dc:title>
+    </bib:Document>
+</rdf:RDF>
