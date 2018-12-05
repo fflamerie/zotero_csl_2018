@@ -11,8 +11,8 @@ Où puis-je trouver les styles CSL dans Zotero ? Localiser le répertoire de don
 ## Rappel 2 : qualité des données
 Tous les problèmes de mise en forme ne proviennent pas des styles bibliographiques, vérifiez la qualité et la complétude des données de votre bibliothèque Zotero en premier lieu !
 
-## Rappel 3 : bon usage des outils de rédaction bibliographiques
-Un usage inapproprié des outils de rédaction peut êter une autre source d'anomalies dans les citations ou la biblioraphie. Assurez-vous ainsi d'utiliser correctement les modules pour traitement de texte, s'agissant notament de l'insertion de préfixes, suffixes et localisateurs pour les citations.
+## Rappel 3 : bon usage des outils de rédaction bibliographique
+Un usage inapproprié des outils de rédaction peut être une autre source d'anomalies dans les citations ou la bibliographie. Assurez-vous ainsi d'utiliser correctement les modules pour traitement de texte, s'agissant notament de l'insertion de préfixes, suffixes et localisateurs pour les citations.
 
 [Documentation Zotero : Utiliser le module Zotero pour Word](https://www.zotero.org/support/fr/word_processor_plugin_usage)
 
@@ -143,7 +143,7 @@ C'est la première ligne du fichier CSL. Il contient la déclaration XML et spé
 
 Les éléments sont les blocs de base avec lesquels un fichier XML est construit. Ils peuvent être imbriqués hiérarchiquement : on parle d'éléments **parent** et d'éléments **enfant**. Le premier élément est l'élément **racine** (`style` dans le langage CSL), duquel tous les éléments dépendent. On **indente** généralement les éléments enfant par des espaces ou des tabulations pour faciliter la compréhension.
 
-Chaque élément est introduit par une balise `<ouvrante>` et clos par une balise `</fermante>`, ou une barre oblique s'il n'a pas de contenu. Toute balise ouverte doit impérativement être fermée.
+Chaque élément est introduit par une balise `<ouvrante>` et clos par une balise `</fermante>`, ou une barre oblique s'il n'a pas de contenu textuel ou ne contient pas d'élémént enfant. Toute balise ouverte doit impérativement être fermée.
 
 Ex:
 ```
@@ -212,11 +212,11 @@ Un style CSL est structuré en plusieurs éléments.
 
 *   `bibliography` : décrit la façon dont la bibliographie est mise en forme. [Spécification CSL : élément `bibliography`](http://docs.citationstyles.org/en/stable/specification.html#bibliography)
 
-*   `locale` : permet de spécifier des termes, formats de dates et options de mise en forme différents de ceux prévus par défaut pour la langue. [Spécification CSL : élément `locale`](http://docs.citationstyles.org/en/stable/specification.html#locale)
+*   `locale` : permet de spécifier des termes, formats de date et options de mise en forme différents de ceux prévus par défaut pour la langue. [Spécification CSL : élément `locale`](http://docs.citationstyles.org/en/stable/specification.html#locale)
 
 *   `terms` : permet la modification de chaînes de caractères spécifiques (ex. remplacer « edited by » par « ed. by »). [Spécification CSL : élément `terms`](http://docs.citationstyles.org/en/stable/specification.html#terms)
 
-*   `macro` : permet la réutilisation des règles de formatage dans `citation` et `bibliography` et des styles plus compacts. [Spécification CSL : élément `macro`](http://docs.citationstyles.org/en/stable/specification.html#macro)
+*   `macro` : permet la réutilisation des règles de formatage (notamment dans `citation` et `bibliography`) et des styles plus compacts. [Spécification CSL : élément `macro`](http://docs.citationstyles.org/en/stable/specification.html#macro)
 
 Une `macro` CSL permet de définir des règles et d'attribuer à cet ensemble de règles un nom : appeler la macro en indiquant son nom exécutera la commande et appliquera les règles définies. On peut ainsi écrire une seule fois une longue séquence de paramétrage pour un élément donné, et y faire ensuite référence lorsque l'on souhaite l'appliquer.
 
@@ -230,7 +230,7 @@ Source : adamsmith. (2013, 28 octobre). Writing CSL - Features and Best Practice
 
 Retenons également la bonne pratique 3 recommandées dans ce billet, nous reviendrons sur la bonne pratique 1 un peu plus tard.
 
->Bonne pratique 3 : Utilisez des `terms`et des `labels`. N'ajoutez pas de termes ou d'expressions dans des affixes ou en utilisant `text value=`.
+>Bonne pratique 3 : Utilisez des `terms` et des `labels`. N'ajoutez pas de termes ou d'expressions dans des affixes ou en utilisant `text value=`.
 
 ## Anatomie des éléments `style` et `info`
 
@@ -240,7 +240,7 @@ Retenons également la bonne pratique 3 recommandées dans ce billet, nous revie
 On en parlera dans les _Miscellanées_ ; pour rendre agnostique du point de vue de la langue un style localisé, il suffit de supprimer l'attribut `default-locale`.
 
 ### Style dépendant vs. style indépendant.
-Dans un souci d'économie de code, certains styles sont dépendants d'un autre style. Dans ce cas, le fichier CSL se réduit à un élément `info`. La référence au style principal est indiquée par l'attribut `rel="independent-parent"`.
+Dans un souci d'économie, certains styles sont dépendants d'un autre style. Dans ce cas, le fichier CSL se réduit à un élément `info`. La référence au style principal est indiquée par l'attribut `rel="independent-parent"`.
 
 Exemple du style [Loisir et Société / Society and Leisure](https://www.zotero.org/styles/loisir-et-societe-society-and-leisure)
 
@@ -274,18 +274,15 @@ D'autres élements, `group` et `choose`, par exemple, sont davantage des éléme
 
 *   `date` : date de publication, date de consultation, etc.
 
-*   `names`: noms des auteurs, des éditeurs scientifiques, des éditeurs commerciaux, etc.
+*   `names` : noms des auteurs, des éditeurs scientifiques, des éditeurs commerciaux, etc.
 
-*   `number`: volume, numéro, numéro dans la série, etc.
+*   `number` : volume, numéro, numéro dans la série, etc.
 
-*   `choose`: créer des conditions - voir _infra_ les différents types de condition
+*   `choose` : pour créer des conditions - voir _infra_ les différents types de condition
 
-*   `label`: paramètre l'affichage et la mise en forme de l'étiquette applicable pour les variables `page` ou `locator` ou les variables de type nombre
+*   `label` : pour paramétrer l'affichage et la mise en forme de l'étiquette applicable pour les variables `page` ou `locator` ou les variables de type nombre
 
-*   `group` : simplifie l’écriture d’un style en :
-
-    *   définissant la ponctuation au niveau d’un groupe d’éléments plutôt qu’élément par élément,
-    *   conditionnant l’affichage de certaines données à la présence d’autres.
+*   `group` : pour paramétrer la ponctuation au niveau d’un groupe d’éléments plutôt qu’élément par élément ; cela évite de générer une ponctuation incohérente et peut permettre d'économiser du code en définissant .
 
 C'est le moment de revenir sur les bonnes pratiques d'écriture recommandées par adamsmith, avec la bonne pratique 1.
 
@@ -330,7 +327,7 @@ L'_Aperçu des styles_ vous permet de comparer rapidement tout ou partie des sty
 
 Afin que cet aperçu soit significatif et parlant, il importe de s'assurer de deux points.
 
-Tout d'abord, assurez-vous que ces éléments reflètent la **diversité de types de document** que vous allez citer (article, chapitre, mais aussi thèse ou encore brevet ou film ) : vous vérifierez ainsi que tous ces types sont bien pris en compte par les styles que vous comparez. Le style _Nature_, par exemple, ne sera pas le plus adapté si vous citez des documents non publiés comme les thèses. La revue _Nature_ demande aux auteurs de citer un nombre restreint de types de document (voir les [instructions aux auteurs](http://www.nature.com.docelec.u-bordeaux.fr/nature/for-authors/formatting-guide), rubrique _References_), aussi le style CSL _Nature_ encode-t-il la mise en forme des références uniquement pour ces types de document.
+Tout d'abord, assurez-vous que ces éléments reflètent la **diversité de types de document** que vous allez citer (article, chapitre, mais aussi thèse ou encore brevet ou film ) : vous vérifierez ainsi que tous ces types sont bien pris en compte par les styles que vous comparez. Le style _Nature_, par exemple, ne sera pas le plus adapté si vous citez des documents non publiés comme les thèses. La revue _Nature_ demande aux auteurs de citer un nombre restreint de types de document (voir les [instructions aux auteurs](http://www.nature.com.docelec.u-bordeaux.fr/nature/for-authors/formatting-guide), rubrique _References_), aussi le style CSL _Nature_ encode-t-il la mise en forme des citations uniquement pour ces types de document.
 
 Ensuite, et surtout, assurez-vous que ces éléments sont complets et exacts.
 
@@ -345,7 +342,7 @@ Si l'_Aperçu des styles_ permet de manipuler plusieurs styles à des seules fin
 
 L'écran est composé de 3 zones, avec, de bas en haut :
 
-* le panneau de **prévisualisation**, dans lequel vous voyez évoluer en temps réel le formatage des citations et de la bibliographie au fur et à mesure des modifications que vous apportez au fichier de style,
+* le panneau de **prévisualisation**, dans lequel vous voyez évoluer en temps réel la mise en forme des citations et de la bibliographie au fur et à mesure des modifications que vous apportez au fichier de style,
 * le panneau d'**édition**,
 * la barre d'outils.
 
@@ -360,7 +357,7 @@ Error: File is not valid XML
 ```
 
 * On prévisualise en direct les modifications de paramétrage du style, et ce à partir des exemples de document de sa bibliothèque.
-* On peut tester en direct les paramétrages liés à des situations de citation particulières : ainsi lorsque l'on précise une mention de page ou de paragraphe (menu déroulant _Page_), ou que l'on supprime le nom de l'auteur d'un appel de citation  dans un style de type auteur-date. Ou encore, dans un style de type _note_, lorsque l'on cite à plusieurs reprises la même référence (gestion des _ibid_, _op. cit._, etc. - menu déroulant _Position de la citation_).
+* On peut tester en direct les paramétrages liés à des situations de citation particulières : ainsi lorsque l'on précise un localisateur  (menu déroulant _Page_), ou que l'on supprime le nom de l'auteur d'un appel de citation  dans un style de type auteur-date. Ou encore, dans un style de type _note_, lorsque l'on cite à plusieurs reprises la même référence (gestion des _ibid_, _op. cit._, etc. - menu déroulant _Position de la citation_).
 
 ![copie écran editeur_style_zotero_barre_outils](img/editeur_style_barre_outils.png)
 
@@ -371,7 +368,7 @@ Error: File is not valid XML
 
 
 ## Les outils en ligne : valider et formater son code
-L'éditeur Zotero n'assure pas la **validation CSL**, indispensable pour installer et utiliser votre style, et bien sûr pour [le soumettre au dépôt CSL](https://github.com/citation-style-language/styles/blob/master/CONTRIBUTING.md) si son champ d'application dépasse un usage personnel ou local.
+L'éditeur Zotero n'assure pas la **validation CSL**, indispensable pour installer et utiliser votre style, et bien sûr pour [le soumettre à l'entrepôt CSL](https://github.com/citation-style-language/styles/blob/master/CONTRIBUTING.md) si son champ d'application dépasse un usage personnel ou local.
 
 Le validateur en ligne [http://validator.citationstyles.org/](http://validator.citationstyles.org/) vérifie la validité CSL de votre fichier, et surtout affiche le cas échéant de façon détaillée les erreurs à corriger.
 
@@ -386,7 +383,7 @@ Le validateur en ligne [http://validator.citationstyles.org/](http://validator.c
 ![valideur_2](img/csl_validate_error_1.png)
 
 
-L'outil de formatage en ligne [https://formatter.citationstyles.org/](https://formatter.citationstyles.org/) apportera ensuite automatiquement diverses modifications à votre code, pour que votre fichier soit conforme aux standards de l'entrepôt CSL (notamment indenter correctement votre code ou encore réordonner les éléments enfant de l'élément `info`. Cet outil contrôle également la validité de votre fichier, mais il s'arrête dès la première erreur rencontrée. Il est ainsi préférable de recourir d'abord au validateur, qui vous affichera lui **toutes** les erreurs de votre code.
+L'outil de formatage en ligne [https://formatter.citationstyles.org/](https://formatter.citationstyles.org/) apportera ensuite automatiquement diverses modifications à votre code, pour que votre fichier soit conforme aux standards de l'entrepôt CSL (notamment indenter correctement votre code ou encore réordonner les éléments enfant de l'élément `info`). Cet outil contrôle également la validité de votre fichier, mais il s'arrête dès la première erreur rencontrée. Il est ainsi préférable de recourir d'abord au validateur, qui vous affichera lui **toutes** les erreurs de votre code.
 
 
 ## Avant de commencer : enregistrer un style créé avec l'_Editeur de style_ Zotero
@@ -404,7 +401,7 @@ Avant tout travail d'édition sur un style existant, modifiez le contenu de ces 
 <info>
   <title>Mon style</title>
     <id>http://www.zotero.org/styles/mon_style</id>
-    <link href="http://www.zotero.org/styles/nature"/>`
+    <link href="http://www.zotero.org/styles/nature"/>
 ...
 ```
 
@@ -425,8 +422,8 @@ Pour installer votre nouveau style, cliquez sur le bouton _+_  du _Gestionnaire 
 
 _Pour cet exercice, vous travaillez en équipe avec un collègue :_
 
-*_l'un est le conducteur  et assure la saisie du code,_
-*_l'autre est le navigateur et apporte au conducteur, aide, commentaires et suggestions._
+* _l'un est le conducteur et assure la saisie du code,_
+* _l'autre est le navigateur et apporte au conducteur, aide, commentaires et suggestions._
 
 Modifiez le style _Elsevier - Harvard (with titles)_ pour que les **auteurs** soient mis en forme selon les consignes du style Garni.
 
@@ -495,7 +492,7 @@ Le style _Elsevier-Harvard (with titles)_ utilise :
 
 _Pour cet exercice, vous travaillez en équipe avec un collègue :_
 
-*_l'un est le conducteur et assure la saisie du code,_
+* _l'un est le conducteur et assure la saisie du code,_
 * _l'autre est le navigateur et apporte au conducteur, aide, commentaires et suggestions._
 
 _Si vous avez conservé la même équipe que pour l'exercice 1, vous inversez les rôles._
@@ -505,7 +502,7 @@ Modifiez le style _Elsevier - Harvard (with titles)_ pour que les **titres** soi
 La `macro name="title"` du style est un peu plus complexe que la `macro name="author"`, car elle définit une mise en forme conditionnelle en fonction du type de document. Les conditions sont exprimées dans l'élément `choose`.
 
 *   `if` définit la 1ère condition : si le document est une thèse ou un rapport , le titre est affiché, suivi entre parenthèses du type de thèse ou de rapport et de son numéro.
-*   `else-if` définissent les autres conditions : si le document, par exemple, est une page web, le titre est affiché, suivi de la mention entre crochets _WWW Document_.
+*   `else-if` définissent les autres conditions : si le document, par exemple, est une page web, le titre est affiché, suivi de : [WWW Document].
 *   `else` définit ce qui s'applique dans tous les autres cas : si le document est d'un autre type que ceux indiqués dans les éléments `if` et `else-if`, le titre est affiché.
 
 ## Exercice de style 3
@@ -519,11 +516,11 @@ Les différents types de condition sont exprimés par les attributs possibles po
 
 **NB** on peut indiquer plusieurs valeurs, sauf pour l’attribut `desambiguate`.
 
-*   `desambiguate="true"`(seule valeur possible de l’attribut) : la condition n’est réalisée que si elle permet de désambiguïser
+*   `desambiguate="true"` (seule valeur possible de l’attribut) : la condition n’est réalisée que si elle permet de désambiguïser
 *   `is-numeric="variable"` valeur de l’attribut = variable qui doit avoir un contenu numérique pour que la condition se réalise
 *   `is-uncertain-date="date"` valeur de l’attribut = date qui doit être incertaine pour que la condition se réalise [NB Zotero ne gère pas les dates incertaines]
-*   `locator="XXX"`valeur de l’attribut = `locator` auquel la condition s’applique
-*   `position="XXX"` cf. _infra_, utilisées pour les notes de bas de page ou de fin
+*   `locator="XXX"` valeur de l’attribut = localisateur auquel la condition s’applique
+*   `position="XXX"` cf. _infra_, utilisée pour les notes de bas de page ou de fin
 *   `type="XXX"` valeur de l’attribut = type de document auquel la condition s’applique
 *   `variable="variable"` valeur de l’attribut = variable dont l’absence ou la présence conditionne la réalisation de la condition
 
@@ -545,8 +542,8 @@ ex : `<if variable="volume" match="none">` la condition se réalise si la variab
 ## Structure de l'élément `citation`
 L'élément `citation` permet de paramétrer les appels de citation pour les styles _**in-text**_, et les notes (de bas de page ou de fin) pour les styles **_note_**. Il comporte deux éléments.
 
-*   `sort` : définit les critères de tri des références multiples,
-*   `layout` : spécifie les informations à inclure (et leur formatage s'il n'a pas été défini dans des `macro`).
+*   `sort` : définit les critères de tri des citations multiples,
+*   `layout` : spécifie les informations à inclure (et leur mise en forme si elle n'a pas été définie dans des `macro`).
 
 Les attributs et les possibilités de mise en forme diffèrent en fonction du type de style.
 
@@ -555,14 +552,14 @@ Le paramétrage pour les styles **numériques** demeurant simple et sommaire, no
 ```
 <citation nom_attribut="valeur_à_appliquer"/>
   <sort>
-    <key variable="variable_critère_de_tri_pour_les_références_multiples"/>
-    <key macro="résultat_de_la_macro_critère_de_tri_pour_les_références_multiples" sort="ascending" ou "descending"/>
+    <key variable="variable_critère_de_tri_pour_les_citations_multiples"/>
+    <key macro="résultat_de_la_macro_critère_de_tri_pour_les_citations_multiples" sort="ascending" ou "descending"/>
   </sort>
   <layout >
-    <text variable="variable_à_afficher" préfixe, suffixe, etc./>
+    <text variable="variable_à_afficher"/>
     <text macro="résultat_de_la_macro_à_afficher"/>
   </layout>
-</citation>`
+</citation>
 ```
 
 ## Exercice de style 4
@@ -583,12 +580,12 @@ Comment les appels de citation sont-ils mis en forme dans ce style?
 
 ## Styles auteur-date
 ### Désambiguïser
-Dans les styles auteur-date, l'élément `citation` doit comporter des règle de désambiguïsation des appels de citation (documents distincts ayant le(s) même(s) auteur(s) et la même date de publication). CSL envisage cette désambiguïsation selon 3 étapes, exprimées par des attributs de l'élément `citation`.
+Dans les styles auteur-date, l'élément `citation` doit comporter des règle de désambiguïsation des citations, afin de distinguer des documents ayant les mêmes auteurs et la même date de publication. CSL envisage cette désambiguïsation selon 3 étapes, exprimées par des attributs de l'élément `citation`.
 
 Présentons en bref les 3 étapes détaillées dans [Spécification CSL : Disambiguation](http://docs.citationstyles.org/en/1.0.1/specification.html#disambiguation)
 
 #### Etape 1
-`disambiguate-add-names` : par l’ajout d’un nom, sans tenir compte du paramétrage du _et al_
+`disambiguate-add-names` : par l’ajout d’un nom, sans tenir compte du paramétrage du `et-al`
 
 #### Etape 2
 `disambiguate-add-givenname` : par l’ajout d’un prénom, par ex. J. Doe, 2005 et M. Doe, 2005
@@ -607,7 +604,7 @@ Il s'agit de regrouper les citations multiples par auteur. Ce regroupement est a
 ### Compacter
 Il s'agit non seulement de regrouper, mais plus encore de compacter les citations multiples. L'attribut `collapse` active le regroupement et le compactage et peut avoir les valeurs suivantes.
 
-*   `"year"` : compacte les références d’un même auteur aux dates, par ex. :  (Doe 2000, Doe 2001) devient (Doe 2000, 2001).
+*   `"year"` : compacte les citations d’un même auteur aux dates, par ex. :  (Doe 2000, Doe 2001) devient (Doe 2000, 2001).
 *   `"year-suffix"` : idem que le précédent, mais compacte aussi des années identiques, par ex. : (Doe 2000a, Doe 2000b) devient (Doe 2000a, b).
 *   `"year-suffix-ranged"` : idem que le précédent, mais compacte aussi les suffixes, par ex. : (Doe 2000a, b, c, e) devient (Doe 2000a-c, e).
 
@@ -618,7 +615,7 @@ Plusieurs attributs de l'élément `citation` permettent de définir les paramè
 
 *   `et-al-min` : nombre d’auteurs minimum pour afficher la mention `et-al`
 *   `et-al-use-first` : nombre d’auteurs à inclure avant `et-al`
-*   `et-al-subsequent-min`  et `et-al-subsequent-use-first`: idem supra, pour les références déjà citées
+*   `et-al-subsequent-min`  et `et-al-subsequent-use-first` : idem que les précédents, pour les références déjà citées
 *   `et-al-use-last` : remplace `et-al` par « … » et le nom du dernier auteur
 *   `delimiter-precedes-et-al` : paramétrage de l'affichage du `delimiter`avant la mention `et-al`  - valeurs `contextual`, `after-inverted-name`, `always` ou `never` - lorsque le délimiteur n'est pas affiché, une espace lui est substituée
 
@@ -632,7 +629,7 @@ Pourquoi l'élément `citation` est-il plus complexe dans les style **_note_**?
 
 D'une part, les citations affichent davantage de composants (titre, éditeur, etc.) pour constituer une référence bibliographique abrégée.
 
-D'autre part, les éléments à afficher peuvent différer en fonction de la **position** relative de la référence citée, et de la présence ou non d'une spécification de page, de chapitre, etc., _i. e._ d'un  localisateur.
+D'autre part, les éléments à afficher peuvent différer en fonction de la **position** relative de la référence citée, et de la présence ou non d'un  localisateur.
 
 ### Ibid, op. cit., etc.
 On retrouve ici l'élément `choose` et la définition de conditions.
@@ -645,7 +642,7 @@ Il peut avoir différentes valeurs.
 *   `ibid`, `ibid-with-locator`, `subsequent` : une référence citée précédemment a la position `subsequent`. Elle peut aussi avoir la position `ibid` ou `ibid-with-locator` si les deux occurrences sont contiguës. C'est le cas si l'une des deux conditions suivantes est satisfaite.
 
 1.  La référence citée est la même que celle qui la précède immédiatement dans la même note.
-2.  La référence citée est la première de la note, et elle est la même que celle de la note précédente (qui est une citation unique).
+2.  La référence citée est la première de la note, et elle est la même que celle de la note précédente, qui est une citation unique.
 
 C'est alors la présence d'un localisateur qui détermine la position attribuée.
 
@@ -663,7 +660,7 @@ Si la citation comporte un localisateur différent, la position est `ibid-with-l
 
 Si elle ne comporte pas de localisateur, la position est seulement `subsequent`.
 
-*   `near-note` : position d'une citation `subsequent` distante d'un nombre _n_ de notes de sa première occurrence. L’attribut `near-note-distance` permet en effet de paramétrer la distance maximale entre les 2 notes. Ainsi, une citation très éloignée de sa première occurrence pourra être restituée sous la forme d'une version plus détaillée de la référence.
+*   `near-note` : position d'une citation `subsequent` distante d'un nombre _n_ de notes de sa première occurrence. L’attribut `near-note-distance` permet en effet de paramétrer la distance maximale entre les 2 notes. Ainsi, une citation très éloignée de sa première occurrence pourra être restituée sous la forme d'une version plus détaillée de la référence bibliographique.
 
 ### Exemple de style note
 Style [Presses Universitaires de Rennes (French)](https://www.zotero.org/styles/presses-universitaires-de-rennes)
@@ -720,7 +717,7 @@ Style [Presses Universitaires de Rennes (French)](https://www.zotero.org/styles/
 Comme l'élément `citation`, l'élément `bibliography`a pour élément enfant les 2 éléments suivants :
 
 *   `sort` : définit les critères de tri des références dans la bibliographie,
-*   `layout` : spécifie les informations à inclure (et leur formatage s'il n'a pas été défini dans des `macro`).
+*   `layout` : spécifie les informations à inclure (et leur mise en forme si elle n'a pas été définie dans des `macro`).
 
 Si certaines options (et donc certains attributs) sont les mêmes que pour `citation` (nombre d’auteurs pour l’affichage de `et-al`), d'autres sont spécifiques (marges et saut de ligne, mise en forme des noms d’auteur déjà cités).
 
@@ -759,7 +756,7 @@ On retrouve les mêmes attributs que pour l'élément `citation`.
 
 *   `et-al-min` : nombre d’auteurs minimum pour afficher la mention `et-al`
 *   `et-al-use-first` : nombre d’auteurs à inclure avant `et-al`
-*   `et-al-subsequent-min`  et `et-al-subsequent-use-first`: idem _supra_, pour les références déjà citées
+*   `et-al-subsequent-min`  et `et-al-subsequent-use-first`: idem que les précédents, pour les références déjà citées
 *   `et-al-use-last` : remplace `et-al` par « … » et le nom du dernier auteur
 *   `delimiter-precedes-et-al` : paramétrage de l'affichage du délimiteur  avant la mention `et-al`- valeurs `contextual`, `after-inverted-name`, `always` ou `never` - lorsque le délimiteur n'est pas affiché, une espace lui est substituée
 
@@ -773,7 +770,7 @@ Les attributs suivants sont applicables uniquement à l'élément `bibliography`
 [Spécification CSL : Whitespace](http://docs.citationstyles.org/en/1.0.1/specification.html#whitespace)
 
 ### Grouper par nom d'auteur
-Il s'agit, lorsque des noms d'auteur apparaissent dans des références adjacentes, de remplacer  les occurrences suivantes du nom par un subsitut, défini par la valeur de l'attribut `subsequent-author-substitute`.
+Il s'agit, lorsque des références adjacentes ont le(s) même(s) auteur(s), de remplacer les occurrences suivantes de ce(s) nom(s) par un substitut, défini par la valeur de l'attribut `subsequent-author-substitute`.
 
 L'attribut `subsequent-author-substitute-rule` paramètre les règles de substitution qui s'appliquent.
 

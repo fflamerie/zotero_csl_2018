@@ -47,6 +47,7 @@ _Oubli de la balise fermante `</title-short>`_
     `<title-short>MHRA</title-short>`
     `<id>http://www.zotero.org/styles/mhra</id>`
 `<link href="http://www.zotero.org/styles/mhra" rel=self/>`
+`</info>`
 
 ---
 # Erreur 2 - corrigé
@@ -55,6 +56,7 @@ _Oubli de la balise fermante `</title-short>`_
     `<title-short>MHRA</title-short>`
     `<id>http://www.zotero.org/styles/mhra</id>`
 `<link href="http://www.zotero.org/styles/mhra" rel="self"/>`:point_left:
+`</info>`
 
 _Oubli des `" "` pour encadrer la valeur de l'attribut `rel`_
 
@@ -168,6 +170,10 @@ _Oubli des `--` avant le chevron fermant le commentaire_
         `</group>`
       `</if>`
     `</choose>`
+    `...`
+    `</macro>`
+    
+
 
 ---
 # Erreur 7 - corrigé
@@ -181,5 +187,7 @@ _Oubli des `--` avant le chevron fermant le commentaire_
         `</group>`
       `</if>`
     `</choose>`
+    `...`
+    `</macro>`
 
 _Les chevrons sont signifiants en XML et doivent être échappés par `&lt;` pour le chevron ouvrant et `&gt;` pour le chevron fermant_
