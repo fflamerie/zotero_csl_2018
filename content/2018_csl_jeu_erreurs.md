@@ -141,6 +141,8 @@ _CSL parle anglais : l'attribut `suffixe` n'existe pas ; le vocabulaire correct 
               `<text variable="event-place"/>`
             `</group>`
           `</if>`
+            `...`
+    `</choose>`
 
 ---
 # Erreur 6 - corrigé
@@ -155,7 +157,9 @@ _CSL parle anglais : l'attribut `suffixe` n'existe pas ; le vocabulaire correct 
               `<text variable="event-place"/>`
             `</group>`
           `</if>`
-
+   `...`
+    `</choose>`
+    
 _Oubli des `--` avant le chevron fermant le commentaire_
 
 ---
