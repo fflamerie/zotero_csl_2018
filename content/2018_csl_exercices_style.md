@@ -389,7 +389,7 @@ Modifiez le style _Elsevier Harvard (with titles)_ pour afficher la date origina
 ---
 
 ## Exercice de style 7 : corrigé
-* Il faut modifier la `macro name="issued"` pour ajouter la date originale entre crochets avant la date d'édition.
+* Il faut modifier la `macro name="issued"` pour ajouter la date originale entre crochets avant la date d'édition ET afficher le suffixe utilisé pour la désambiguïsation après la date et non après la date originale
 * Pour ne pas afficher la date originale dans les appels de citation, il faut créer une nouvelle macro `macro name="issued-short"` et appeler cette macro dans l'élément `citation`.
 * Afin que le tri par date ne soit pas affecté dans la bibliographie, il convient de modifier également l'élément `key macro="issued"` de l'élément `bibliography`.
 
@@ -421,16 +421,19 @@ _Macro `issued` après_
           <date variable="original-date">
             <date-part name="year" prefix="[" suffix="]"/>
           </date>
+          <group>
           <date variable="issued">
             <date-part name="year"/>
           </date>
+          <text variable="year-suffix"/>
+        </group>
         </group>
       </if>
       <else>
         <text term="no date" form="short"/>
       </else>
     </choose>
-  </macro>
+</macro>
 ```
 
 _Macro `issued-short`_
@@ -439,15 +442,18 @@ _Macro `issued-short`_
 <macro name="issued-short">
     <choose>
       <if variable="issued">
+        <group>
         <date variable="issued">
           <date-part name="year"/>
         </date>
+        <text variable="year-suffix"/>
+      </group>
       </if>
       <else>
         <text term="no date" form="short"/>
       </else>
     </choose>
-  </macro>
+</macro>
 ```
 
 _`citation` et `bibliography`avant_
