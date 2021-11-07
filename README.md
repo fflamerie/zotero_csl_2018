@@ -1,4 +1,7 @@
 # Créer des styles bibliographiques CSL
+
+⚠️ ⚠️ **Version 2021 de cette formation à l'adresse : https://github.com/fflamerie/zotero_csl**. ⚠️⚠️
+
 Matériel de la formation ["Créer des styles bibliographiques CSL"](https://sygefor.reseau-urfist.fr/#!/training/7131/8188) organisée par l'Urfist Bordeaux les 2018-03-06 et 2018-12-06.
 
 * [Matériel de la session 2018-03-06](https://github.com/fflamerie/zotero_csl_2018/tree/2018_03)
