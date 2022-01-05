@@ -1,4 +1,8 @@
 # Créer des styles bibliographiques en CSL
+
+
+⚠️ ⚠️ **Version 2021 de cette formation à l'adresse : https://github.com/fflamerie/zotero_csl**. ⚠️⚠️
+
 Matériel de la formation ["Créer des styles bibliographiques personnalisés pour Zotero et Mendeley : utilisateurs avancés"](https://sygefor.reseau-urfist.fr/#!/training/7235/7907/) organisée par l'Urfist Bordeaux à l'Université de Poitiers le 2018-03-06, 9h-16h.
 Le matériel est composé des éléments suivants.
 * Document de cours - [md](https://github.com/fflamerie/zotero_csl_2018/blob/2018_03/2018_csl_cours.md) et [PDF](https://github.com/fflamerie/zotero_csl_2018/blob/2018_03/2018_csl_cours.pdf)
